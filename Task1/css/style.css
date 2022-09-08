@@ -48,7 +48,7 @@ li{
 }
 
 .description {
-  border: 1px #d6d7d7 solid;
+  border: 1px solid #d6d7d7;
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 8px;
@@ -60,7 +60,7 @@ li{
 }
 
 .picture {
-  border: 1px #d6d7d7 solid;
+  border: 1px solid #d6d7d7;
   border-radius: 5px;
   padding: 4px;
   min-width: 85%;
@@ -76,7 +76,7 @@ li{
 }
 
 .picture__caption {
-  border: 1px #E5E8E8 solid;
+  border: 1px solid #E5E8E8;
   background-color: #dcdede;
   z-index: 2;
   min-width: 99%; 
