@@ -95,26 +95,26 @@ h3 {
   font-weight: 600;
 }
 
-.wrapper__finalDescription {
+.footer__finalText {
   font-style: italic;
 }
 
-.wrapper__finalDescription-link {
+.footer__finalText-link {
   color: #2497cd;
   text-decoration: none;
 }
 
-.wrapper__finalDescription-link:hover {
+.footer__finalText-link:hover {
   color: #2498cd80;
   text-decoration: none;
 }
 
-.wrapper__finalDescription-link:focus {
+.footer__finalText-link:focus {
   color: #2498cd80;
   text-decoration: none;
 }
 
-.wrapper__finalDescription-link:active {
+.footer__finalText-link:active {
   color: #136083f7;
   text-decoration: none;
 }
