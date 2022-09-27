@@ -1,60 +1,126 @@
 h1{
-  font-size: 25px;
+  font-size: 30px;
+  color: rgb(58, 58, 58);
+  margin-left: 2%;
 }
 
-.wrapper {
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  max-width: 100%;
+  align-items: stretch;
 }
 
-.wrapper__header {
-  padding: 1% 2%;
+.container__header {
+  padding: 2% 0;
   background-color: rgb(84, 161, 175);
   color: rgb(2, 2, 1);
-  min-width: 100%;
   text-align: center;
+  font-size: 50px;
 }
 
-.wrapper__navigation {
-  padding: 1% 2%;
+.container__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.container__wrapper-navigation {
+  padding: 2% 0;
   background-color: rgb(184, 124, 198);
   color: rgb(12, 12, 12);
-  min-width: 100%;
-  text-align: center;
+  font-size: 50px;
+  padding-left: 2%;
 }
 
-.wrapper__main {
-  padding: 1% 2%;
+.container__wrapper__main {
+  padding: 2% 0;
   background-color: rgb(224, 222, 162);
-  color: rgb(2, 2, 1);
-  min-height: 600px;
-  min-width: 100%;
+  min-height: 1200px;
+  /* min-height: 78vh; */
   justify-content: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.wrapper__relatedLinks {
-  padding: 1% 2%;
+.container__wrapper__main-text{
+  font-size: 20px;
+  padding-left: 2%;
+}
+
+.container__wrapper-relatedLinks {
+  padding: 2% 0;
   background-color: rgb(124, 109, 178);
   color: rgb(2, 2, 1);
   min-width: 100%;
+  font-size: 50px;
+  padding-left: 2%;
 }
 
-.wrapper__footer {
-  padding: 1% 2%;
+.container__footer {
+  padding: 2% 0;
   background-color: rgb(84, 175, 117);
   color: rgb(2, 2, 1);
-  min-width: 100%;
   text-align: center;
+  font-size: 50px;
 }
 
-@media(min-width) {
-  .wrapper{
-    ...
+@media(min-width: 520px) {
+  .container__header {
+    font-size: 30px;
+  }
+
+  .container__wrapper-navigation {
+    font-size: 30px;
+  }
+
+  .container__wrapper__main {
+    min-height: 1000px;
+  }
+
+  .container__wrapper__main-text {
+    font-size: 18px;
+  }
+
+  .container__wrapper-relatedLinks {
+    font-size: 30px;
+  }
+
+  .container__footer {
+    font-size: 30px;
+  }
+}
+
+@media(min-width: 834px) {
+  .container__wrapper{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .container__header {
+    font-size: 25px;
+  }
+
+  .container__wrapper-navigation {
+    font-size: 25px;
+    min-width: 15%;
+  }
+
+  .container__wrapper__main {
+    min-width: 60%;
+  }
+
+  .container__wrapper__main-text {
+    font-size: 20px;
+  }
+
+  .container__wrapper-relatedLinks {
+    font-size: 25px;
+    min-width: 15%;
+  }
+
+  .container__footer {
+    font-size: 25px;
   }
 }
  
