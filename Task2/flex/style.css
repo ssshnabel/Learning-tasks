@@ -1,5 +1,5 @@
 h1{
-  font-size: 30px;
+  font-size: 28px;
   color: rgb(58, 58, 58);
   margin-left: 2%;
 }
@@ -15,27 +15,28 @@ h1{
   background-color: rgb(84, 161, 175);
   color: rgb(2, 2, 1);
   text-align: center;
-  font-size: 50px;
+  font-size: 28px;
 }
 
 .container__wrapper{
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  justify-content: space-between;
 }
 
 .container__wrapper-navigation {
   padding: 2% 0;
   background-color: rgb(184, 124, 198);
   color: rgb(12, 12, 12);
-  font-size: 50px;
+  font-size: 28px;
   padding-left: 2%;
 }
 
 .container__wrapper__main {
   padding: 2% 0;
   background-color: rgb(224, 222, 162);
-  min-height: 1200px;
+  min-height: 600px;
   justify-content: flex-start;
   display: flex;
   flex-direction: column;
@@ -52,7 +53,7 @@ h1{
   background-color: rgb(124, 109, 178);
   color: rgb(2, 2, 1);
   min-width: 100%;
-  font-size: 50px;
+  font-size: 28px;
   padding-left: 2%;
 }
 
@@ -61,20 +62,16 @@ h1{
   background-color: rgb(84, 175, 117);
   color: rgb(2, 2, 1);
   text-align: center;
-  font-size: 50px;
+  font-size: 28px;
 }
 
-@media all and (min-width: 520px) and (max-width: 834px){
+@media all and (min-width: 520px){
   .container__header {
     font-size: 30px;
   }
 
   .container__wrapper-navigation {
     font-size: 30px;
-  }
-
-  .container__wrapper__main {
-    min-height: 1000px;
   }
 
   .container__wrapper__main-text {
@@ -115,7 +112,7 @@ h1{
 
   .container__wrapper__main {
     min-width: 60%;
-    min-height: 600px;
+    min-height: 700px;
   }
 
   .container__wrapper__main-text {
